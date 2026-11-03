@@ -1,5 +1,7 @@
 package com.nestle.trazabilidad;
 
+import com.nestle.trazabilidad.view.VentanaPrincipal;
+
 import javax.swing.SwingUtilities;
 
 public class Main {

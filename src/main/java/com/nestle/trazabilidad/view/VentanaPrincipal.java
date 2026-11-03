@@ -1,4 +1,4 @@
-package com.nestle.trazabilidad;
+package com.nestle.trazabilidad.view;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;

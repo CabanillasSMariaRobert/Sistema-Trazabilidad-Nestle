@@ -6,8 +6,8 @@ import lombok.*;
 @NoArgsConstructor
 @Setter
 @Getter
-
 public class Permisos {
+
     private Integer idPermiso;
     private String codigo;
     private String nombre;

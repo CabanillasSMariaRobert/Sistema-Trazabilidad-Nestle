@@ -1,23 +1,20 @@
-package com.nestle.trazabilidad.utils;
+package com.nestle.trazabilidad.entity;
 
 import jakarta.persistence.Column;
-import jakarta.persistence.Embeddable;
 import lombok.*;
-
 import java.io.Serializable;
+import java.util.Objects;
 
-@Embeddable
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
+public class RolPermisoId implements Serializable {
 
-public class RolesPermisosEntityId implements Serializable {
     @Column(name = "id_rol")
     private Integer idRol;
 
     @Column(name = "id_permiso")
     private Integer idPermiso;
-
 }

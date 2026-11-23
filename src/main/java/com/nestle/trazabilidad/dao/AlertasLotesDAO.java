@@ -10,6 +10,7 @@ import java.util.Optional;
 public interface AlertasLotesDAO {
     Integer insertar(Connection conexion, AlertasLotesEntity asociacion) throws SQLException;
     Optional<AlertasLotesEntity> buscarPorId(Connection conexion, Integer idAlertaLote) throws SQLException;
+    List<AlertasLotesEntity> listarTodos(Connection conexion) throws SQLException;
     boolean existeAsociacion(Connection conexion, Integer idAlerta, Integer idLote) throws SQLException;
     List<AlertasLotesEntity> listarPorAlerta(Connection conexion, Integer idAlerta) throws SQLException;
     List<AlertasLotesEntity> listarPorLote(Connection conexion, Integer idLote) throws SQLException;
